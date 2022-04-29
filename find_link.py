@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
  
  
-url = "https://mypushop.com/shops/?latitude=41.4887992&longitude=12.5982912&page=14"
+url = "https://your_url.com"
 reqs = requests.get(url)
 soup = BeautifulSoup(reqs.text, 'html.parser')
  
